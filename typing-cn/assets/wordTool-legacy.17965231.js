@@ -1,0 +1,1 @@
+System.register(["./index-legacy.cca30d46.js"],(function(e){"use strict";var s;return{setters:[function(e){s=e.d}],execute:function(){const t=e("w",{shuffle:e=>e,getWords:(e,n)=>"1"!==e&&n&&0!==n.length?t.jsonCopy(n):t.jsonCopy(s),jsonCopy:e=>JSON.parse(JSON.stringify(e))})}}}));
