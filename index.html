@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CoderXshuai</title>
+    <style>
+        html {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+<iframe id="bi_iframe" onload="adjustIframe();" seamless src="https://blog.csdn.net/weixin_45772077">
+</iframe>
+</body>
+<script>
+    function adjustIframe() {
+        var ifm = document.getElementById("bi_iframe");
+        ifm.height = document.documentElement.clientHeight;
+        ifm.width = document.documentElement.clientWidth;
+    }
+</script>
+</html>
